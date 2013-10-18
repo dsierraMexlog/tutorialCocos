@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contacts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Contacts" inverseName="category" inverseEntity="Contacts" syncable="YES"/>
+    </entity>
+    <entity name="Contacts" representedClassName="Contacts" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="contacts" inverseEntity="Category" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Contacts" positionX="-6300" positionY="-2626" width="128" height="103"/>
+        <element name="Category" positionX="-6446" positionY="-2628" width="128" height="73"/>
+    </elements>
+</model>
