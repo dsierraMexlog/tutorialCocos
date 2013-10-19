@@ -278,11 +278,12 @@
 		64B0AB30178F047400E1E2B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aguila del Desierto de Baja California, S. de R.L. de C.V.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
 				INFOPLIST_FILE = "CoreData/CoreData-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D57BAFB5-6E62-42BB-AAF9-42780638DB53";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -290,11 +291,12 @@
 		64B0AB31178F047400E1E2B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aguila del Desierto de Baja California, S. de R.L. de C.V.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
 				INFOPLIST_FILE = "CoreData/CoreData-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D57BAFB5-6E62-42BB-AAF9-42780638DB53";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
