@@ -153,6 +153,11 @@
 				CLASSPREFIX = CoreData;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = mexlog;
+				TargetAttributes = {
+					64B0AB0C178F047400E1E2B8 = {
+						DevelopmentTeam = 8XG36V389T;
+					};
+				};
 			};
 			buildConfigurationList = 64B0AB08178F047400E1E2B8 /* Build configuration list for PBXProject "CoreData" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -273,6 +278,7 @@
 		64B0AB30178F047400E1E2B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
 				INFOPLIST_FILE = "CoreData/CoreData-Info.plist";
@@ -284,6 +290,7 @@
 		64B0AB31178F047400E1E2B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreData/CoreData-Prefix.pch";
 				INFOPLIST_FILE = "CoreData/CoreData-Info.plist";
@@ -311,6 +318,7 @@
 				64B0AB31178F047400E1E2B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
